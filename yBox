@@ -1,0 +1,96 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package ybox;
+import entidades.cadastrarUsuario;
+import entidades.cadastrarMaterial;
+import java.util.Scanner;
+/**
+ *
+ * @author Richard Rosa
+ */
+public class YBox {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        
+     }
+    
+    
+    public class Admin {  /*Admin vai entrar sem necessitar de DB */
+        public String nomeAdmin;
+        public String senhaAdmin;
+    
+    }
+    
+    
+        public class usuario{  /*Uuario se comunicara com DB */
+            public String nome;
+            public String senha;
+        }
+        
+        
+        
+    
+        public class novoUsuario{  /*Importando entidade cadastrarUsuario */
+              Scanner sc = new Scanner(System.in);
+
+              cadastrarUsuario nome, senha;
+              nome = new cadastrarUsuario();
+              senha = new cadastrarUsuario();
+
+              nome.nomeUser = sc.next();
+              senha.senhaUser= sc.next();
+        }
+
+    
+    
+            
+        public class novoMaterial{ /*Importando entidade cadastrarMaterial */
+            Scanner x = new Scanner(System.in);
+            
+            cadastrarMaterial ID, nomeMaterial, quantidadeMaterial;
+            
+            nomeMaterial = new cadastrarMaterial();
+            quantidadeMaterial = new cadastrarMaterial();
+            
+            nomeMaterial.descricao = x.next();
+            quantidadeMaterial.quantidadeCadastro = x.nextInt();
+        }    
+        
+        
+        public class novaSaida{  /*Importando entidade saidaMaterial */
+            Scanner y = new Scanner(System.in);
+            
+            saidaMaterial ID, nomeSaida, quantSaida;
+            
+            nomeSaida = new  saidaMaterial();
+            quantidadeSaida = new saidaMaterial();
+            
+            nomeSaida.descricaoSaida = y.next();
+            quantSaida.quantidadeSaida= y.nextInt();
+        }
+            
+            
+            
+    public class terceiro{
+        public int ID;
+        public String nomeTerceiro;
+    }
+ 
+    
+    
+    
+    
+    public class Estoque{
+        
+    }
+    
+}
+
+
