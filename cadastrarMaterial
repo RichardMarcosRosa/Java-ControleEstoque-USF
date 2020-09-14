@@ -4,13 +4,14 @@ package entidades;
  *
  * @author Richard Rosa
  */
-public class cadastrarUsuario {
-    
-      public String nomeUser;
-        public String senhaUser;    
+public class cadastrarMaterial {
+     public int ID;
+     public String descricao;
+     public int quantidadeCadastro;
+     
+     
     
 }
-
 
 
 
