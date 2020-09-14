@@ -1,0 +1,14 @@
+package entidades;
+
+/**
+ *
+ * @author Richard Rosa
+ */
+public class saidaMaterial {
+    
+    
+    public int ID;
+     public String descricaoSaida;
+     public int quantidadeSaida;
+    
+}
