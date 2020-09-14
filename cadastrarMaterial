@@ -1,0 +1,17 @@
+package entidades;
+
+/**
+ *
+ * @author Richard Rosa
+ */
+public class cadastrarUsuario {
+    
+      public String nomeUser;
+        public String senhaUser;    
+    
+}
+
+
+
+
+
